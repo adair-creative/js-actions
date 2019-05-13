@@ -1,5 +1,5 @@
 # Javascript Actions `!BETA!`
-A tool that allows for easy actions to easily be called from the client Javascript, featuring typed arguments & default values!
+A tool that allows for easy actions to easily be called from the client Javascript, featuring typed arguments, automatic method execution, DataObject getting by IDs & default values!
 
 Note: This is just a beta so it may be unstable and there will be more to come
 

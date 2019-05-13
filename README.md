@@ -25,7 +25,7 @@ if ($(document.body).hasClass("MyPage")) {
 
 ## Config
 ```yaml
-AdairCreative\JsActionController:
+AdairCreative\JsActionsController:
     - js_namespace: "MyController"
     - action_prefix: "MyAction"
 ```

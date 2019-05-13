@@ -1,0 +1,11 @@
+{
+	"name": "adair-creative/js-actions",
+	"version": "0.1",
+	"description": "Allows for easy use of server-side actions from Javascript",
+	"authors": [
+		{
+			"name": "Jesse Solomon",
+			"email": "jesse@adaircreative.com"
+		}
+	]
+}

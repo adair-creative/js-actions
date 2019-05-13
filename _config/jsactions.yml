@@ -1,0 +1,13 @@
+---
+name: JsActions
+---
+
+SilverStripe\Core\Injector\Injector:
+  Psr\SimpleCache\CacheInterface.ACG_JsActions:
+    factory: SilverStripe\Core\Cache\CacheFactory
+    constructor:
+      namespace: "ACG_JsActions"
+
+SilverStripe\CMS\Controllers\ContentController:
+  extensions:
+    - AdairCreative\JsActionsController

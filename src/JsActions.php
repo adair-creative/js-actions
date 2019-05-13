@@ -12,7 +12,7 @@ namespace AdairCreative {
     use SilverStripe\Core\Config\Configurable;
     use SilverStripe\Core\Config\Config;
 
-class JsActionsController extends DataExtension implements Flushable {
+	class JsActionsController extends DataExtension implements Flushable {
 		use Configurable;	
 
 		private static $url_handlers = [

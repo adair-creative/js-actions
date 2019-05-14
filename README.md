@@ -3,6 +3,8 @@ A tool that allows for easy actions to easily be called from the client Javascri
 
 Note: This is just a beta so it may be unstable and there will be more to come
 
+```composer require adair-creative\js-actions```
+
 
 ## Usage
 PHP

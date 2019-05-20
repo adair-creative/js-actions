@@ -78,7 +78,7 @@ namespace AdairCreative {
 			$prefix = $this->actionPrefix();
 			$jsNamespace = Config::inst()->get(JsActionsController::class, "js_namespace");
 			$cache = Injector::inst()->get(CacheInterface::class . ".ACG_JsActions");
-			$cacheName = $this->owner->ClassName . "_ACG_JsActionBinding";
+			$cacheName = str_replace("\\", "-", str_replace("/", "-", $this->owner->ClassName)) . "_ACG_JsActionBinding";
 			if ($js = $cache->get($cacheName)) {
 				Requirements::customScript($js);
 				return;
